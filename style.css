@@ -28,3 +28,10 @@ body{
     padding:35px;
     position: relative;
 }
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
