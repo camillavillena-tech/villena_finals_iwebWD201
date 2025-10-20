@@ -188,6 +188,21 @@ nav a:hover{
   font-size: 14px; 
   color: #333333;  
 } 
+/* Techniques CSS */ 
+.techniques { 
+  margin-top: 40px; 
+} 
+.techniques h2 { 
+  color: #D63384; 
+  font-weight: 700; 
+  margin-bottom: 10px; 
+} 
+.techniques li { 
+  color: #333333; 
+  line-height: 1.8; 
+  padding-left: 20px; 
+  font-size: 14px; 
+} 
 
 
 /*FOOTER CSS*/
