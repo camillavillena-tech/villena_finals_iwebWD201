@@ -141,6 +141,21 @@ nav a:hover{
     max-width: 400px;
 }
 
+
+/*ABOUT WEBPAGE*/
+.aboutusintro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutusintro .aboutus-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 /*FOOTER CSS*/
 footer{
     margin-top: 18px;
