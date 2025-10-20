@@ -70,5 +70,12 @@ nav a{
     color:#d63384;
     font-weight: bold;
     font-size: 45px;
+    line-height: 1;
+}
+.another-text{
+    margin-top: 14px;
+    color: #333333;
+    font-size: 18px;
+    padding: 5px 10px;
 
 }
