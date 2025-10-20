@@ -203,7 +203,49 @@ nav a:hover{
   padding-left: 20px; 
   font-size: 14px; 
 } 
+/*CONTACT CSS*/
+#contact {
+  text-align: center;
+  padding: 30px 10px;
+}
+#contact h2 {
+  font-size: 28px;
+  color: #d63384;
+  margin-bottom: 10px;
 
+}
+#contact h4 {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+#contact a {
+  color: #d63384;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+/* Contact Button */
+#contact h4:nth-child(3) {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #d63384;
+  color: #fff;
+  border-radius: 15px;
+  
+}
+/* Map CSS */
+.map {
+  border: 3px solid #f4b6c2;
+  border-radius: 10px;
+  margin-top: 25px;
+  height: 250px;
+  max-width: 500px;
+}
 
 /*FOOTER CSS*/
 footer{
