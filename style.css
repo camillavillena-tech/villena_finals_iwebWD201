@@ -35,3 +35,9 @@ header{
     justify-content: space-between;
     margin-bottom: 28px;
 }
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #d24b84;
+}
