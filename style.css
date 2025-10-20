@@ -238,6 +238,12 @@ nav a:hover{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 30px;
 }
+.section-title{
+    text-align: center;
+    color:#d24b84;
+    font-weight: bold;
+    padding: 10px 0;
+}
 
 /*CONTACT CSS*/
 #contact {
