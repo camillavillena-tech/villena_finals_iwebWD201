@@ -203,6 +203,42 @@ nav a:hover{
   padding-left: 20px; 
   font-size: 14px; 
 } 
+/*PORFOLIO PART CSS*/
+/* Owner Section */
+.portfolio {
+  margin-top: 20px;
+}
+
+.owner {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.owner-photo img {
+  width: 220px;
+  border-radius: 12px;
+  border: 2px solid #d24b84;
+}
+
+.owner-info {
+  flex: 1;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.portfolio h3 {
+  color: #d24b84;
+  margin-bottom: 10px;
+}
+.owner p{
+  color:#4A3C32;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 30px;
+}
+
 /*CONTACT CSS*/
 #contact {
   text-align: center;
@@ -276,6 +312,8 @@ footer{
   }
 
 }
+
+
 
 /*TABLET-DESKTOP VIEW*/
 @media (min-width: 630px) {
