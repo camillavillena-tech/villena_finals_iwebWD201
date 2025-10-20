@@ -155,6 +155,40 @@ nav a:hover{
   justify-content: flex-end;
 }
 
+/* Categories Part */ 
+.categories-title { 
+  text-align: center; 
+  color: #D63384; 
+  font-size: 28px; 
+  margin: 40px 0 25px; 
+  font-weight: bold; 
+} 
+.categories-grid { 
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 50px 80px; 
+  padding: 0 40px; 
+} 
+.categories1 { 
+  display: flex; 
+  align-items: flex-start; 
+  gap: 18px; 
+} 
+.categories1 img { 
+  width: 80px; 
+  height: 80px; 
+  object-fit: contain; 
+} 
+.categories1 h4 { 
+  color: #D63384; 
+  font-size: 18px; 
+  margin-bottom: 6px; 
+} 
+.categories1 p { 
+  font-size: 14px; 
+  color: #333333;  
+} 
+
 
 /*FOOTER CSS*/
 footer{
