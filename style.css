@@ -90,6 +90,7 @@ nav a{
 .card{
     text-align: center;
     background-color: #fff1f6;
+    padding:15px;
     border-radius: 15px;
 }
 
