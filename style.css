@@ -84,6 +84,7 @@ nav a{
 /*NAV BOTTOM SECTION*/
 .nav-card{
     display: flex;
+    gap: 18px;
     margin-top: 36px;
 }
 .card{
