@@ -84,6 +84,17 @@ nav a{
     padding: 5px 10px;
 
 }
+.signup{
+    margin-top: 20px;
+}
+.signup-up-button{
+    background-color: #d63384;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 /*NAV BOTTOM SECTION*/
 .nav-card{
