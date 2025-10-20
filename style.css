@@ -80,3 +80,15 @@ nav a{
     padding: 5px 10px;
 
 }
+
+/*NAV BOTTOM SECTION*/
+.nav-card{
+    display: flex;
+    margin-top: 36px;
+}
+.card{
+    text-align: center;
+    background-color: #fff1f6;
+    border-radius: 15px;
+}
+
