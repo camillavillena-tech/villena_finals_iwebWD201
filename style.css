@@ -65,6 +65,10 @@ nav a{
     border-radius: 12px;
     font-weight: bold;
 }
+.contact-button:hover{
+    background-color: #b53a7b;
+    box-shadow: 0 8px 12px rgb(0, 8, 12, 0.3);
+}
 
 .bake{
     color:#d63384;
@@ -109,4 +113,34 @@ nav a{
     font-size: 14px;
     color: #333333;
 }
+.card a{
+    text-decoration: none;
+}
 
+/*MOBILE VIEW*/
+@media (max-width: 629px) {
+  .mobile {
+    display: block;
+  }
+  .tablet-desktop {
+    display: none;
+  }
+
+}
+
+/*TABLET-DESKTOP VIEW*/
+@media (min-width: 630px) {
+  .mobile {
+    display: none;
+  }
+  .tablet-desktop {
+    display: block;
+  }
+  .tablet-desktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+}
