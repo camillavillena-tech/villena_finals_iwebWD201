@@ -205,7 +205,7 @@ nav a:hover{
 } 
 
 /* CLASSES PART  CSS */ 
-/* Schedule Table */ 
+/* Schedule Table Part */ 
 .schedule-table { 
   width: 100%; 
   border-collapse: collapse; 
@@ -226,7 +226,70 @@ nav a:hover{
   margin-bottom: 25px; 
   font-size: 18px; 
 } 
+/* Signup form Part */ 
+.form-heading { 
+  color: #D63384; 
+  font-size: 18px; 
+  margin-bottom: 20px; 
+} 
+.signup-form { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  border: 1px solid #D63384; 
+  border-radius: 10px; 
+  padding: 20px; 
+  background: #FFF1F6; 
+} 
+.form-column label { 
+  margin-bottom: 6.5px; 
+  color: #333; 
+  font-size: 13px; 
+} 
+.form-column input, .form-column select, .form-column textarea { 
+  width: 100%; 
+  padding: 7px; 
+  border: 1px solid #D63384; 
+  border-radius: 6px; 
+  background: #FFF9FB; 
+  font-size: 13px; 
+  margin-bottom: 10px; 
+} 
+.form-section-title { 
+  color: #D63384; 
+  font-weight: bold; 
+ 
+} 
+.checkbox-list li { 
+  display: flex; 
+  align-items: center; 
+} 
+.checkbox-list input[type="checkbox"] { 
+  margin-right: 10px; 
+  width: 16px; 
+  height: 16px; 
+} 
+.checkbox-list label { 
+  font-size: 14px; 
+  color: #333; 
+} 
 
+.classes-section p {
+    font-size: 14px;
+    color: #333;
+  }
+/*Submit form part*/
+.submit {
+  background-color:#d63384;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 15px;
+  margin-top: 15px;
+}
+.submit:hover {
+  background-color: white;
+  color: #d63384;;
+}
 
 /*PORFOLIO PART CSS*/
 /* Owner Section */
@@ -400,6 +463,4 @@ footer{
     display: flex;
     justify-content: center;
   }
-
-
 }
