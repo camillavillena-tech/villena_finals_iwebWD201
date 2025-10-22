@@ -662,3 +662,20 @@ footer{
     justify-content: center;
   }
 }
+
+@media print{
+
+  body,main {
+    background-color: white;
+    color: black;
+    font-size: 12pt;
+  }
+ nav {
+  border-color: #ffff;
+}
+ footer {
+  border-color: #ffff;
+}
+
+}
+
