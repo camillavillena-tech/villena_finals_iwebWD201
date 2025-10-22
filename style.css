@@ -510,7 +510,6 @@ footer{
     display: inline-block; 
     margin-top: 10px; 
   } 
-
   
 .aboutusintro {
   display: flex;
@@ -535,7 +534,6 @@ footer{
   border-radius: 12px;
   border: 3px solid #F8A1C4;
 }
-
 /* Categories */ 
 .categories-title { 
     font-size: 20px; 
@@ -571,9 +569,7 @@ footer{
     line-height: 1.4; 
     
 } 
-
 /*CLASSES */
-
   .classes-section {
     flex-direction: column;
     padding: 10px;
@@ -660,7 +656,8 @@ footer{
     justify-content: space-between;
     align-items: center;
   }
-  aside{
+  aside {
+    flex: 1;
     display: flex;
     justify-content: center;
   }
