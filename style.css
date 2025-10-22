@@ -572,6 +572,80 @@ footer{
     
 } 
 
+/*CLASSES */
+
+  .classes-section {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .classes-section h2 {
+    font-size: 22px;
+    color: #D63384;
+    margin-bottom: 10px;}
+
+  /* Sign-up form */
+  .signup-form {
+    border: 1px solid #E48AB2;
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+  .signup-form h3 {
+    font-size: 16px;
+    color: #D63384;
+    margin-bottom: 10px;
+  }
+
+  .signup-form input,
+  .signup-form select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+  }
+  .student-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .student-card {
+    background: #fff;
+    border-radius: 12px;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+/* PORTFOLIO WEBPAGE */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFE6F0;
+  padding: 20px;
+}
+.owner {
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.map {
+  width: 230px;
+  height: 150px;
+}
+.schedule-table,
+.schedule-table th,
+.schedule-table td,
+.schedule-table tr {
+  border: none;
+  border-style: none;
+}
+
 }
 /*TABLET-DESKTOP VIEW*/
 @media (min-width: 630px) {
