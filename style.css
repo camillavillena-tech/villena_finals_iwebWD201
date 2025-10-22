@@ -450,6 +450,128 @@ footer{
     display: none;
   }
 
+    .outside-container { 
+    width: 100%; 
+    max-width: 420px; 
+    border-radius: 20px; 
+    background-color: #FFE6F0; 
+    padding: 0; 
+  }
+
+  header { 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #FFE6F0; 
+    border-bottom: 2px solid #F8A1C4; 
+    padding: 20px 0; 
+  } 
+
+  .brand { 
+    margin-bottom: 20px;
+    font-size: 18px; 
+  } 
+
+  nav {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+  }
+  nav a {
+    display: block;
+    padding: 14px 0;
+    color: #D63384;
+    text-decoration: none;
+    font-weight: bold;
+    border-top: 2px solid #F8A1C4;
+  }
+  nav a:hover {
+    background-color: #D63384;
+    color: #fff;
+  }
+
+/* Hero Section */ 
+  .hero { 
+    flex-direction: column; 
+    text-align: center; 
+  } 
+  .bake { 
+    font-size: 26px; 
+    margin-top: 10px; 
+  } 
+  .another-text { 
+    font-size: 14px; 
+    color: #333333; 
+    padding: 0 15px; 
+  } 
+  .sign-up-button { 
+    display: inline-block; 
+    margin-top: 10px; 
+  } 
+
+  
+.aboutusintro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-text h2 {
+  font-size: 22px;
+  color: #D63384;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+.about-text p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+.about-img {
+  width: 90%;
+  max-width: 300px;
+  border-radius: 12px;
+  border: 3px solid #F8A1C4;
+}
+
+/* Categories */ 
+.categories-title { 
+    font-size: 20px; 
+    text-align: left; 
+    color: #D63384; 
+    margin: 20px 0 10px 10px; 
+    font-weight: 700; 
+} 
+
+.categories-grid { 
+    display: flex; 
+    flex-direction: column; 
+    padding: 5px 10px; 
+  } 
+
+.categories1 { 
+    display: flex; 
+} 
+
+.categories1 img { 
+    width: 50px; 
+    height: 50px; 
+} 
+
+.categories1 h4 { 
+    color: #D63384; 
+    font-size: 16px; 
+    margin-bottom: 5px; 
+} 
+
+.categories1 p { 
+    font-size: 13px; 
+    line-height: 1.4; 
+    
+} 
+
 }
 /*TABLET-DESKTOP VIEW*/
 @media (min-width: 630px) {
